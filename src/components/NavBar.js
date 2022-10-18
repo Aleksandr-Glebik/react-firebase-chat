@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <AppBar position="static" color={'primary'} textColor={'white'}>
-            <Toolbar>
+            <Toolbar variant={'dense'}>
                 <Grid container justifyContent={'flex-end'}>
                     { user
                         ? <Button variant={'outlined'} color="inherit">Выйти</Button>
